@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practica de Laboratorio de Física III con teoría, simulaciones y autoevaluación.">
+  <title>Física III | Práctica de Laboratorio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-view="inicio">
+        <img src="logo-uped.png" alt="Logo UPED" class="brand-logo">
+        <span><strong>FÍSICA III</strong><small>PRÁCTICA DE LABORATORIO</small></span>
+      </a>
+      <div class="nav-label">MENÚ PRINCIPAL</div>
+      <nav class="navigation">
+        <button class="nav-link active" data-view="inicio"><span>⌂</span> Inicio</button>
+        <button class="nav-link" data-view="kirchhoff"><span>⚡</span> Leyes de Kirchhoff</button>
+        <button class="nav-link" data-view="magnetismo"><span>🧲</span> Magnetismo</button>
+        <button class="nav-link" data-view="quiz"><span>✓</span> Autoevaluación</button>
+        <button class="nav-link" data-view="acerca"><span>ⓘ</span> Acerca del proyecto</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="status-dot"></span>
+        Proyecto Final
+        <small>Desarrollado Por Grupo #3</small>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+          <div>
+            <span class="eyebrow">ENTORNO DE APRENDIZAJE</span>
+            <strong>Simulador interactivo de Física III</strong>
+          </div>
+        </div>
+        <span class="top-pill">● En línea</span>
+      </header>
+      <section id="app" class="page-container" aria-live="polite"></section>
+      <footer>&copy; 2026 Laboratorio de Física III — Todos los derechos reservados.</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
